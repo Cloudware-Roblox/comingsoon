@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <style>
         body { margin: 0; padding: 0; 
@@ -26,6 +28,17 @@
         img {
             width: 25%; /* Image width */
             border: 0; /* For IE */
+        }
+        btn {
+         background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+         cursor: pointer;
+        }
+        .btn:hover {
+        background-color: RoyalBlue;
         }
         #main {
             vertical-align: middle;
@@ -93,6 +106,7 @@
         <div id="progress"><div id="fill"><div id="barpercent"><h3>1%</h3></div></div></div>
         <h3 style = "color=white">There is no date set for release yet. Track updates below.</h3>
         <br> </br>
+        <button class="btn"><i class="fa fa-Discord"></i> Discord</button>
         <br </br> 
         <h2><u>Updates</u></h2>
 
